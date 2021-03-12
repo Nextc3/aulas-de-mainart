@@ -1,1 +1,11 @@
-#Questão 2
+#Calcule a tabuada do 13.
+print(1*13)
+print(2*13)
+print(3*13)
+print(4*13)
+print(5*13)
+print(6*13)
+print(7*13)
+print(8*13)
+print(9*13)
+print(10*13)
