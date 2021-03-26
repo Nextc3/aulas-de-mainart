@@ -6,6 +6,7 @@ numero2 = int(input("Entre com o numero2 "))
 numero3 = int(input("Entre com o numero3 "))
 numero4 = int(input("Entre com o numero4 "))
 
+
 resultado = (numero1 * 1 + numero2 * 2 + numero3 * 3 + numero4 * 4)/4
 
 print("Resultado é {}".format(resultado))
