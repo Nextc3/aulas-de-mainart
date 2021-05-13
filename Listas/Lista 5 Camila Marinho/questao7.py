@@ -1,0 +1,14 @@
+lista = []
+
+numero1 = int(input('Entre com o primeiro número: '))
+numero2 = int(input('Entre com o segundo número: '))
+numero3 = int(input('Entre com o terceiro número: '))
+
+lista.append(numero1)
+lista.append(numero2)
+lista.append(numero3)
+lista.sort()
+
+maior = lista[2]
+menor = lista[0]
+intermediario = lista[1]

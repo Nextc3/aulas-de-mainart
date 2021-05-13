@@ -1,8 +1,4 @@
-
-
-#Caso 1
-sigla = input("Entre com a sigla: ")
-dict_sigla = { 
+estados_gentilicos = {
     'AC': 'Acriano',
     'AL': 'Alagoano',
     'AP': 'Amapaense',
@@ -31,5 +27,6 @@ dict_sigla = {
     'SE': 'Sergipano',
     'TO': 'Tocantinense'
 }
-print(dict_sigla[sigla])
 
+sigla = input('Entre com a sigla do estado: ')
+print(estados_gentilicos[sigla])
