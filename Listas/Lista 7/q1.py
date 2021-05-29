@@ -4,7 +4,7 @@
 
 
 
-numero = int(input("Entre com o numero: "))
+numero = float(input("Entre com o numero: "))
 while numero != 999:
     triplo = numero * 3
     print("Triplo do números: {}".format(triplo))
