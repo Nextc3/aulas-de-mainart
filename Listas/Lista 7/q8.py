@@ -6,3 +6,15 @@ cm por ano. construir um programa que calcule e imprima quantos anos
 serão necessários para Juca seja maior que Chico;
 
 '''
+
+chico = 1.5
+juca = 1.1 
+anos = 0 
+while chico > juca:
+    chico += 0.02
+    juca += 0.03
+    print("Idade de Chico: {}".format(chico))
+    print("Idade de Juca: {}".format(juca))
+    anos += 1
+
+print(anos)
