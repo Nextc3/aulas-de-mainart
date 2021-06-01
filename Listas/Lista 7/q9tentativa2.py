@@ -40,12 +40,13 @@ medias = {
     }
 numero = -1
 while numero != 0:
-    consumidores [int(input("Entre com o numero do consumidor: "))] = {
+    numero = int(input("Entre com o numero do consumidor: "))
+    consumidores [numero] = {
         "tipo": int(input("Entre com o tipo: ")),
         "consumo":int(input("Enre com o consumo: "))
 
     }
-    del consumidores[0]
+del consumidores[0]
 consumoAcumulado = {
     1: 0,
     2: 0,
@@ -60,8 +61,7 @@ quantidade = {
 for chave,consumidor in consumidores.items():
     
     consumoAcumulado[consumidor["tipo"]] += consumidor["consumo"]
-       if (consumidor["tipo"] != 3):
-
+    if (consumidor["tipo"] != 3):
         quantidade[consumidor["tipo"]] += 1
     consumidor["custo"] = consumidor["consumo"] * cobrancas[consumidor["tipo"]]
     print("Consumidor {} consumo {}kw/h tipo {} custo {}".format(chave,consumidor["consumo"],consumidor["tipo"],consumidor["custo"]))
@@ -72,6 +72,6 @@ medias[2] = consumoAcumulado[2] / quantidade[2]
 
 
 
-print("Total de Consumo: Residencial {}".format(consumoAcumulado))
-print("Média de consumo: {}".format(medias))
+print("Total de Consumo: Residencial {} Comercial {} Industrial {}".format(consumoAcumulado[1],consumoAcumulado[2], consumoAcumulado[3]))
+print("Média de consumo: Residencial {} Comercial {}".format(medias[1],medias[2]))
 
