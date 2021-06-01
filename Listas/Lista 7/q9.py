@@ -62,3 +62,4 @@ mediaComercial = totalAcumuladoComercial / quantidadeComercial
 print("Total de consumo: Residencial = {}\nComercial = {}\nIndustrial = {}".format(totalAcumuladoResidencia,totalAcumuladoComercial,totalAcumuladoIndustrial))
 
 print("Media de consumo: Residencial = {}\nCcomercial = {}".format(mediaResidencial,mediaComercial))
+print(listaConsumidores)
