@@ -1,0 +1,28 @@
+Desenvolver os programas utilizando a linguagem Python:
+
+
+1. Criar um programa que leia o preço de compra e o preço de venda de 100 produtos. 
+o programa devera imprimir quantas mercadoria proporcionam 
+a) lucro < 10%, b) 10% <= lucro <= 20%, c) lucro > 20%.
+
+
+2. Criar programa que leia dois conjuntos de números inteiros,
+ tendo cada um 10 e 20 elementos e apresente os elementos 
+ comuns aos conjuntos. lembre-se de que os elementos podem 
+ se repetir mas não podem aparecer repetidos na saída.
+
+
+3. Cria um programa que leia vários números inteiros e positivos.
+ A leitura se encerra quando encontrar um numero negativo ou quando o
+  vetor ficar completo. sabe-se que o vetor possui no maximo 10 elementos.
+   gerar e imprimir um vetor onde cada elemento é o inverso do correspondente 
+   do vetor principal.
+
+
+4. Ler um vetor vet de 10 elementos e obter um vetor w cujos componentes
+ são os fatoriais dos respectivos componentes de v;
+
+
+5. Criar programa que leia dados de 20 elementos inteiros. imprimir 
+o maior e o menor, sem ordenar, o percentual de números pares e a
+ media dos elementos do vetor.
